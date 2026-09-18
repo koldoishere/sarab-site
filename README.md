@@ -1,14 +1,25 @@
-# Sarab brand site
+# sarab-site
 
-One-page English parent brand page for Sarab (night black + oasis green).
+Public **Sarab** parent brand site (GitHub Pages).
 
-## Live
+Live: https://koldoishere.github.io/sarab-site/
 
-https://koldoishere.github.io/sarab-site/
+## Structure
 
-Custom domain `sarab.me` is **paused** until Namecheap DNS points at GitHub Pages (old Workshop/OSINT still owns the domain). Re-add `CNAME` + Pages custom domain after DNS cutover.
+| File | Role |
+|------|------|
+| `index.html` | Parent home (EN-first) |
+| `rattib.html` | Hero product page |
+| `access.html` | Access / subscription direction (no fake checkout) |
+| `styles.css` | Shared styles |
+| `logo-mark.png` | Official mark |
 
-## DNS (when ready)
+## Rules
 
-A `@` → 185.199.108.153 / 185.199.109.153 / 185.199.110.153 / 185.199.111.153  
-CNAME `www` → koldoishere.github.io
+- Stay on **github.io** until registrar/DNS for `sarab.me` is unlocked — do **not** re-add Pages CNAME early.
+- Do not invent product behavior or billing providers on this site.
+- Funnel CTAs live in `sarab-rattib-funnel` and stay locked until access model ships.
+
+## Local
+
+Open `index.html` or serve the folder statically. Pages deploys from `main`.
